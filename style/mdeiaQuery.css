@@ -1,0 +1,27 @@
+/* For screens smaller than 600px */
+@media screen and (max-width: 1240px) and (min-width: 991px) {
+	.Dark_Cerulean a {
+		padding: 7px 10px !important;
+		font-size: calc(0.45rem + 0.45vw) !important;
+	}
+}
+@media screen and (max-width: 991px) {
+	.nav_container > * {
+		border-bottom: 1px solid #0172bd;
+		width: 100%;
+	}
+	.fullWidth {
+		width: 100%;
+	}
+}
+@media (min-width: 1200px) {
+	.display-5 {
+		font-size: 3rem;
+	}
+	.display-4 {
+		font-size: 3.5rem;
+	}
+}
+.text-primary-custome {
+	color: #075384;
+}
